@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box; 
+}
+body {
+    background-image: url(./coldplay-wallpaper-coldplay-wallpaper-138369641.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+h1 {
+    text-align:center;
+    font-size: 30px;
+}
+
+.container {
+    width: 800px;
+    margin: 5% auto;
+    justify-content: space-between;    
+}
+
+form {
+    display:flex;
+    border-color: white;
+    border-radius: 25%;
+    
+}
+
+.message-area {
+   display: flex; 
+   flex-direction: column;
+   order: 2;
+   flex-grow: 1;
+   padding: 15px;
+}
+
+textarea {
+    height: 200px;
+    resize: none;
+}
+
+.details-area {
+    flex-grow: 1;
+    order: 1;
+    margin-right: 2em;
+    
+}
+
+input {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+ul {
+    list-style: none;
+}
+
+.footer-icons {
+    margin: 2px;
+    width: 40px;
+    height: 40px;
+    margin-right:10px;
+}
