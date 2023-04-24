@@ -2,7 +2,7 @@
     box-sizing: border-box; 
 }
 body {
-    background-image: url(./coldplay-wallpaper-coldplay-wallpaper-138369641.jpg);
+    background-image: url(../grids-flexbox/img/coldplay-a-sky-full-of-stars-e605afma2st35f4w.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -37,6 +37,8 @@ form {
 textarea {
     height: 200px;
     resize: none;
+    border: 5px solid black;
+    font-size: 20px;
 }
 
 .details-area {
@@ -50,6 +52,7 @@ input {
     width: 80%;
     padding: 12px 20px;
     margin: 8px 0;
+    border: 5px solid black;
 }
 
 ul {
